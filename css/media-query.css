@@ -1,0 +1,185 @@
+@media screen and (max-width: 640px){
+    .child{
+        position: relative;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    :root{
+        --primaryHeader: 32px;
+        --secondaryHeader: 24px;
+    }
+
+    h5{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .Big-Header span{
+        display: initial;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    #whoWeAre p{
+        width: initial !important;
+    }
+
+    h3{
+        font-size: .8rem;
+    }
+    
+    #CTA h3{
+        font-size: 1.4rem !important;
+    }
+
+    h4{
+        font-size: 6vw;
+    }
+
+    #pills-tab li a{
+        font-size: 14px;
+    }
+
+    #pills-tab{
+        flex-wrap: nowrap;
+    }
+    
+    .hero-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .glass-box{
+        width: auto;
+        min-height: 241px;
+        height: auto;
+    }
+
+    .footer-scoial{
+        justify-content: space-between;
+        padding: 0rem 1rem;
+    }
+
+    .baseFooter{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .customBtn{
+        width: 180px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    svg#rotate{
+        width: 290px !important;
+        height: 290px !important;
+        left: 9% !important;
+        top: 12% !important;
+    }
+
+    svg#static{
+        width: 360px !important;
+        height: 360px !important; 
+    }
+
+    .tab-pane .row div .card .row{
+        flex-direction: column !important;
+    }
+
+    .child{
+        position: relative;
+        width: 50%;
+        height: 148px;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    .ctaChildText{
+        font-size: 16px;
+        line-height: initial;
+        width: 266px;
+        height: auto;
+    }
+
+    .userCi{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        top: 30%;
+        left: 4%;
+    }
+
+    .counter{
+        width: 100% !important;
+    }
+
+    footer svg{
+        width: 40px;
+        height: 40px;
+    }
+
+    .navwrapper{
+        list-style: none;
+        position: fixed;
+        top: 0;
+        left: -80%;
+        width: 80%;
+        height: 100vh;
+        background-color: var(--darkColor);
+        padding: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    ul.navlist{
+        width: 100% !important;
+        min-height: auto !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .navlist .nav-items{
+        list-style: none;
+        margin: 1rem initial;
+    }
+
+    a img.logo{
+        width: 180px;
+        height: auto;
+        position: absolute;
+        left: 3%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .bars{
+        display: block;
+        position: absolute;
+        right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .bars span{
+        height: 2px;
+        width: 30px;
+        margin: .4rem 0;
+        display: block;
+        background: #fff;
+    }
+
+    .sitecoverContainer{
+        flex-direction: column;
+    }
+}
